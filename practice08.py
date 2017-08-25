@@ -14,7 +14,7 @@ factor = []
 while enter != 1:
     for i in range(2, int(enter + 1)):
         if enter % i == 0:
-            factor.append(i)
+            factor.append(i)     # 列表末尾添加
             enter = enter / i
             break
 print("'%d' factorize:" % b, factor)
